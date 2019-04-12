@@ -500,6 +500,9 @@ GameObject:
   - component: {fileID: 1252924428}
   - component: {fileID: 1252924430}
   - component: {fileID: 1252924431}
+  - component: {fileID: 1252924434}
+  - component: {fileID: 1252924433}
+  - component: {fileID: 1252924432}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -573,7 +576,8 @@ MonoBehaviour:
     height: 859
   selectedBlocks:
   - {fileID: 1252924426}
-  selectedCommands: []
+  selectedCommands:
+  - {fileID: 1252924432}
   variables: []
   description: 
   stepPause: 0
@@ -1395,6 +1399,9 @@ MonoBehaviour:
   commandList:
   - {fileID: 1252924430}
   - {fileID: 1252924431}
+  - {fileID: 1252924434}
+  - {fileID: 1252924433}
+  - {fileID: 1252924432}
 --- !u!114 &1252924427
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -1470,7 +1477,7 @@ MonoBehaviour:
   sprite: {fileID: 21300000, guid: 203afba1ba30c644eb9b48cfe1e11ac4, type: 3}
 --- !u!114 &1252924430
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -1497,7 +1504,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &1252924431
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -1512,6 +1519,88 @@ MonoBehaviour:
   storyText: 'Who''s there? '
   description: 
   character: {fileID: 1420470995}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1252924432
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1252924390}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 44
+  indentLevel: 0
+  storyText: 'Holding your breath, you wait for whatever is out there to go away.
+    if it caused those screams it must be something that you don''t want to mess with. '
+  description: 
+  character: {fileID: 1863161968}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1252924433
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1252924390}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 43
+  indentLevel: 0
+  storyText: The noice stopped as soon as you said something.
+  description: 
+  character: {fileID: 1863161968}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1252924434
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1252924390}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 42
+  indentLevel: 0
+  storyText: '*SILENCE*'
+  description: 
+  character: {fileID: 0}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
