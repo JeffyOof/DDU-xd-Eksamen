@@ -112,6 +112,133 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &190789915
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 190789917}
+  - component: {fileID: 190789916}
+  m_Layer: 0
+  m_Name: Audio Source
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!82 &190789916
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 190789915}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 451b0f96b6cb1014a9717773f0055966, type: 3}
+  m_PlayOnAwake: 1
+  m_Volume: 0.1
+  m_Pitch: 1
+  Loop: 1
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!4 &190789917
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 190789915}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &376801067
 GameObject:
   m_ObjectHideFlags: 0
@@ -688,6 +815,31 @@ GameObject:
   - component: {fileID: 1252924475}
   - component: {fileID: 1252924474}
   - component: {fileID: 1252924473}
+  - component: {fileID: 1252924523}
+  - component: {fileID: 1252924522}
+  - component: {fileID: 1252924521}
+  - component: {fileID: 1252924520}
+  - component: {fileID: 1252924519}
+  - component: {fileID: 1252924518}
+  - component: {fileID: 1252924517}
+  - component: {fileID: 1252924516}
+  - component: {fileID: 1252924515}
+  - component: {fileID: 1252924525}
+  - component: {fileID: 1252924524}
+  - component: {fileID: 1252924539}
+  - component: {fileID: 1252924538}
+  - component: {fileID: 1252924537}
+  - component: {fileID: 1252924536}
+  - component: {fileID: 1252924535}
+  - component: {fileID: 1252924534}
+  - component: {fileID: 1252924533}
+  - component: {fileID: 1252924532}
+  - component: {fileID: 1252924531}
+  - component: {fileID: 1252924530}
+  - component: {fileID: 1252924529}
+  - component: {fileID: 1252924528}
+  - component: {fileID: 1252924527}
+  - component: {fileID: 1252924526}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -734,6 +886,7 @@ MonoBehaviour:
   description: Start game/Menu Screen
   eventHandler: {fileID: 1252924391}
   commandList:
+  - {fileID: 1252924524}
   - {fileID: 1252924397}
 --- !u!114 &1252924393
 MonoBehaviour:
@@ -748,11 +901,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 33.532913, y: 141.9093}
+  scrollPos: {x: 757.5095, y: 34.317932}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 335
-  zoom: 0.62787145
+  zoom: 1
   scrollViewRect:
     serializedVersion: 2
     x: -343
@@ -760,9 +913,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 1252924392}
+  - {fileID: 1252924510}
   selectedCommands:
-  - {fileID: 1252924397}
+  - {fileID: 1252924539}
   variables: []
   description: 
   stepPause: 0
@@ -1044,7 +1197,7 @@ MonoBehaviour:
   indentLevel: 0
   spriteRenderers:
   - {fileID: 1245931777}
-  sprite: {fileID: 21300000, guid: 28ce7d5838ddcfa498d479be1448bde1, type: 3}
+  sprite: {fileID: 21300000, guid: bf1221d7db85b144c9b0791e92efc668, type: 3}
 --- !u!114 &1252924404
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -1061,7 +1214,7 @@ MonoBehaviour:
   indentLevel: 0
   spriteRenderers:
   - {fileID: 1245931777}
-  sprite: {fileID: 21300000, guid: c0ab206988894b84b981c3e3f1a58312, type: 3}
+  sprite: {fileID: 21300000, guid: a36f2fc8c1acb9949a1ad4cc0043b5c3, type: 3}
 --- !u!114 &1252924405
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -1372,7 +1525,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 56.851234
     y: 415.6505
-    width: 141.73853
+    width: 131
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1493,7 +1646,7 @@ MonoBehaviour:
   indentLevel: 0
   spriteRenderers:
   - {fileID: 1245931777}
-  sprite: {fileID: 21300000, guid: fe906baf9724bfc458558926b0bc457e, type: 3}
+  sprite: {fileID: 21300000, guid: 3a1646196fa7188419bf184c01ba1c32, type: 3}
 --- !u!114 &1252924423
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -1588,7 +1741,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 189.80879
     y: 526.66187
-    width: 168.49559
+    width: 158
     height: 40
   tint: {r: 0.7607844, g: 0.7607844, b: 0.7607844, a: 1}
   useCustomTint: 0
@@ -1600,6 +1753,7 @@ MonoBehaviour:
   - {fileID: 1252924449}
   - {fileID: 1252924430}
   - {fileID: 1252924472}
+  - {fileID: 1252924525}
   - {fileID: 1252924471}
   - {fileID: 1252924437}
   - {fileID: 1252924436}
@@ -1620,7 +1774,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -104.34973
     y: 528.2316
-    width: 169.76974
+    width: 155
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 1
@@ -2213,7 +2367,7 @@ MonoBehaviour:
   indentLevel: 0
   spriteRenderers:
   - {fileID: 1245931777}
-  sprite: {fileID: 21300000, guid: fe906baf9724bfc458558926b0bc457e, type: 3}
+  sprite: {fileID: 21300000, guid: 3a1646196fa7188419bf184c01ba1c32, type: 3}
 --- !u!114 &1252924450
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -2496,8 +2650,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 51.979492
-    y: 751.5392
+    x: 53.979492
+    y: 752.5392
     width: 120
     height: 40
   tint: {r: 0.48688668, g: 0.19081523, b: 0.6037736, a: 1}
@@ -2710,7 +2864,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 371.9795
     y: 667.5392
-    width: 140.46439
+    width: 133
     height: 40
   tint: {r: 0.21960786, g: 0.18823531, b: 0.627451, a: 1}
   useCustomTint: 1
@@ -2746,7 +2900,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -96.9477
     y: 661.9015
-    width: 123.900475
+    width: 120
     height: 40
   tint: {r: 0.6792453, g: 0.18903525, b: 0.18903525, a: 1}
   useCustomTint: 1
@@ -2775,7 +2929,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 200.97949
     y: 618.5392
-    width: 144.2868
+    width: 134
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2954,7 +3108,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -330.49857
     y: 661.9015
-    width: 171.04388
+    width: 160
     height: 40
   tint: {r: 0.65882355, g: 0.18039216, b: 0.18039216, a: 1}
   useCustomTint: 1
@@ -3416,7 +3570,7 @@ MonoBehaviour:
   indentLevel: 0
   spriteRenderers:
   - {fileID: 1245931777}
-  sprite: {fileID: 21300000, guid: fe906baf9724bfc458558926b0bc457e, type: 3}
+  sprite: {fileID: 21300000, guid: 0efab60171624e2439fd881245edfd96, type: 3}
 --- !u!114 &1252924495
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -3433,7 +3587,7 @@ MonoBehaviour:
   indentLevel: 0
   spriteRenderers:
   - {fileID: 1245931777}
-  sprite: {fileID: 0}
+  sprite: {fileID: 21300000, guid: d5a7a916ab010404094a4a21bf853201, type: 3}
 --- !u!114 &1252924496
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -3450,7 +3604,7 @@ MonoBehaviour:
   indentLevel: 0
   spriteRenderers:
   - {fileID: 1245931777}
-  sprite: {fileID: 0}
+  sprite: {fileID: 21300000, guid: f1fa5752b1b8341458c4ac3f03d849b1, type: 3}
 --- !u!114 &1252924497
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -3495,7 +3649,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 581.9795
     y: 667.5392
-    width: 150.65755
+    width: 143
     height: 40
   tint: {r: 0.21568629, g: 0.18431373, b: 0.6156863, a: 1}
   useCustomTint: 1
@@ -3505,10 +3659,11 @@ MonoBehaviour:
     i."
   eventHandler: {fileID: 0}
   commandList:
-  - {fileID: 1252924496}
+  - {fileID: 1252924526}
   - {fileID: 1252924497}
   - {fileID: 1252924493}
   - {fileID: 1252924492}
+  - {fileID: 1252924496}
   - {fileID: 1252924488}
   - {fileID: 1252924489}
   - {fileID: 1252924490}
@@ -3519,6 +3674,8 @@ MonoBehaviour:
   - {fileID: 1252924484}
   - {fileID: 1252924482}
   - {fileID: 1252924483}
+  - {fileID: 1252924528}
+  - {fileID: 1252924527}
 --- !u!114 &1252924499
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -3750,7 +3907,7 @@ MonoBehaviour:
   indentLevel: 0
   spriteRenderers:
   - {fileID: 1245931777}
-  sprite: {fileID: 0}
+  sprite: {fileID: 21300000, guid: 946f33f51d0e4104ba86302c08610fe8, type: 3}
 --- !u!114 &1252924508
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -3820,9 +3977,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 52.638905
-    y: 852.51746
-    width: 127.722916
+    x: 52.638916
+    y: 857.51746
+    width: 122
     height: 40
   tint: {r: 0.4784314, g: 0.18823531, b: 0.59607846, a: 1}
   useCustomTint: 1
@@ -3832,6 +3989,26 @@ MonoBehaviour:
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 1252924495}
+  - {fileID: 1252924523}
+  - {fileID: 1252924520}
+  - {fileID: 1252924521}
+  - {fileID: 1252924522}
+  - {fileID: 1252924515}
+  - {fileID: 1252924539}
+  - {fileID: 1252924516}
+  - {fileID: 1252924517}
+  - {fileID: 1252924518}
+  - {fileID: 1252924519}
+  - {fileID: 1252924535}
+  - {fileID: 1252924536}
+  - {fileID: 1252924537}
+  - {fileID: 1252924538}
+  - {fileID: 1252924534}
+  - {fileID: 1252924530}
+  - {fileID: 1252924531}
+  - {fileID: 1252924532}
+  - {fileID: 1252924533}
+  - {fileID: 1252924529}
 --- !u!114 &1252924511
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -3936,6 +4113,638 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setSayDialog: {fileID: 0}
+--- !u!114 &1252924515
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1252924390}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 143
+  indentLevel: 0
+  storyText: "After walking around trying to find the right room, but most of the
+    doors are locked or blocked\r\nAfter finding the last door wich is unlocked you
+    walk inside. \n"
+  description: 
+  character: {fileID: 1863161968}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1252924516
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1252924390}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 142
+  indentLevel: 0
+  storyText: Torrence sits down on one of the hospital beds, holding his head in his
+    hands.
+  description: 
+  character: {fileID: 1863161968}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1252924517
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1252924390}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 141
+  indentLevel: 0
+  storyText: "Not here either\u2026"
+  description: 
+  character: {fileID: 1112201242}
+  portrait: {fileID: 21300000, guid: 1a79472e7e194f44788ade84cabc554f, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1252924518
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1252924390}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 140
+  indentLevel: 0
+  storyText: "Could\u2026 Could he maybe be\u2026"
+  description: 
+  character: {fileID: 1112201242}
+  portrait: {fileID: 21300000, guid: 1a79472e7e194f44788ade84cabc554f, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1252924519
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1252924390}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 139
+  indentLevel: 0
+  storyText: No, no that
+  description: 
+  character: {fileID: 1112201242}
+  portrait: {fileID: 21300000, guid: 1a79472e7e194f44788ade84cabc554f, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1252924520
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1252924390}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 138
+  indentLevel: 0
+  storyText: You nod.
+  description: 
+  character: {fileID: 1863161968}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1252924521
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1252924390}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 137
+  indentLevel: 0
+  storyText: Alright, follow me! Uh, my name is Torrence by the way.
+  description: 
+  character: {fileID: 1112201242}
+  portrait: {fileID: 21300000, guid: 1a79472e7e194f44788ade84cabc554f, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1252924522
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1252924390}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 136
+  indentLevel: 0
+  storyText: You tell him your name and start looking around for an un-damaged path.
+  description: 
+  character: {fileID: 1863161968}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1252924523
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1252924390}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 135
+  indentLevel: 0
+  storyText: "I think he\xB4s in one of these rooms. 300\u2026 something, I think.
+    He probably knows a way out, he\xB4s been here for a long time."
+  description: 
+  character: {fileID: 1112201242}
+  portrait: {fileID: 21300000, guid: 1a79472e7e194f44788ade84cabc554f, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1252924524
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1252924390}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8bacd6d8da56644cbb2c9a43f96750c3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 145
+  indentLevel: 0
+  spriteRenderers:
+  - {fileID: 1245931777}
+  sprite: {fileID: 21300000, guid: ef4f7033a4428e04b972c1c7ab51f4f1, type: 3}
+--- !u!114 &1252924525
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1252924390}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8bacd6d8da56644cbb2c9a43f96750c3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 144
+  indentLevel: 0
+  spriteRenderers:
+  - {fileID: 1245931777}
+  sprite: {fileID: 21300000, guid: 0efab60171624e2439fd881245edfd96, type: 3}
+--- !u!114 &1252924526
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1252924390}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8bacd6d8da56644cbb2c9a43f96750c3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 160
+  indentLevel: 0
+  spriteRenderers:
+  - {fileID: 1245931777}
+  sprite: {fileID: 21300000, guid: 5bd98031536c9a84d9dbb917a9786438, type: 3}
+--- !u!114 &1252924527
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1252924390}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 050fb9e6e72f442b3b883da8a965bdeb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 159
+  indentLevel: 0
+  targetFlowchart: {fileID: 0}
+  targetBlock: {fileID: 1252924396}
+  startLabel:
+    stringRef: {fileID: 0}
+    stringVal: 
+  startIndex: 0
+  callMode: 0
+--- !u!114 &1252924528
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1252924390}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 158
+  indentLevel: 0
+  storyText: You have reached the end of this story path, going further will take
+    you back to the start were you can try a different path.
+  description: 
+  character: {fileID: 1863161968}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1252924529
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1252924390}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 050fb9e6e72f442b3b883da8a965bdeb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 157
+  indentLevel: 0
+  targetFlowchart: {fileID: 0}
+  targetBlock: {fileID: 1252924396}
+  startLabel:
+    stringRef: {fileID: 0}
+    stringVal: 
+  startIndex: 0
+  callMode: 0
+--- !u!114 &1252924530
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1252924390}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 156
+  indentLevel: 0
+  storyText: Torrence walks to the door. It has a map of the hospital printed on it.
+  description: 
+  character: {fileID: 1863161968}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1252924531
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1252924390}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 155
+  indentLevel: 0
+  storyText: He starts pointing at different places, thinks, then shakes his head.
+    After a little while, He turns to you, confidently pointing at one of the rooms.
+  description: 
+  character: {fileID: 1863161968}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1252924532
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1252924390}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 154
+  indentLevel: 0
+  storyText: "On\u2026 the ground floor. Come on!"
+  description: 
+  character: {fileID: 1112201242}
+  portrait: {fileID: 21300000, guid: 1a79472e7e194f44788ade84cabc554f, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1252924533
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1252924390}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 153
+  indentLevel: 0
+  storyText: You have reached the end of this story path, going further will take
+    you back to the start were you can try a different path.
+  description: 
+  character: {fileID: 1863161968}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1252924534
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1252924390}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 152
+  indentLevel: 0
+  storyText: "Uhh\u2026 and an exit! Yeah, if there is an open exit somewhere, I bet
+    it\xB4ll be on the cameras too!"
+  description: 
+  character: {fileID: 1112201242}
+  portrait: {fileID: 21300000, guid: 1a79472e7e194f44788ade84cabc554f, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1252924535
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1252924390}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 150
+  indentLevel: 0
+  storyText: Wait! Look!
+  description: 
+  character: {fileID: 1112201242}
+  portrait: {fileID: 21300000, guid: 1a79472e7e194f44788ade84cabc554f, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1252924536
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1252924390}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 149
+  indentLevel: 0
+  storyText: There's a camera in here! And there were cameras in the other rooms too!
+  description: 
+  character: {fileID: 1112201242}
+  portrait: {fileID: 21300000, guid: 1a79472e7e194f44788ade84cabc554f, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1252924537
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1252924390}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 148
+  indentLevel: 0
+  storyText: "So there might be ones in the rooms we can\xB4t get to! If we can find
+    out where they are monitored, we might be able to find dad!"
+  description: 
+  character: {fileID: 1112201242}
+  portrait: {fileID: 21300000, guid: 1a79472e7e194f44788ade84cabc554f, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1252924538
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1252924390}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 147
+  indentLevel: 0
+  storyText: "Hmm, I don\xB4t know..."
+  description: 
+  character: {fileID: 1420470995}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1252924539
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1252924390}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8bacd6d8da56644cbb2c9a43f96750c3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 146
+  indentLevel: 0
+  spriteRenderers:
+  - {fileID: 1245931777}
+  sprite: {fileID: 21300000, guid: f1fa5752b1b8341458c4ac3f03d849b1, type: 3}
 --- !u!1 &1415659336
 GameObject:
   m_ObjectHideFlags: 0
